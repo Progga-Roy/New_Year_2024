@@ -1,21 +1,25 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Merriweather", serif;
-  font-weight: 400;
-  font-style: normal;
- 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+font-weight: 400;
+font-style: normal;
+
+
+}
+body{
+  background-color: white;
 }
 /* Banner section start */
 .banner{
-    margin: 50px 100px;
-    width: 1320px;
-    height: 600px;
-    position: relative;
+  margin: 50px 100px;
+  width: 1320px;
+  height: 600px;
+  position: relative;
 }
 .banner img{
-  filter: brightness(50%);
+filter: brightness(50%);
 }
 .banner-heading{
 position: absolute;
@@ -25,14 +29,44 @@ text-align: center;
 
 }
 .banner-heading p{
-    font-size: 32px;
-    color: #FFFFFF;
+  font-size: 32px;
+  color: #FFFFFF;
 }
 .banner-heading h1{
 
-    font-size: 72px;
-    color: #FFFFFF;
-    font-weight: bold;
-    margin-top: 16px;
+  font-size: 72px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 16px;
 }
-/* Banner section start */
+/* Banner section end */
+
+.offer-section{
+  margin-top: 100px;
+  text-align: center;
+}
+.offer h1{
+  font-size: 88px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: #FF0000;
+ 
+}
+.offer p{
+
+margin-top: 30px;
+font-size: 24px;
+color: #FF0000;
+font-family: "Inter", sans-serif;
+ 
+}
+.offer h3{
+  margin-top: 16px;
+  font-size: 48px;
+  color:#070211;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  }
+  .offer-img img{
+     margin-top: 50px;
+  }
